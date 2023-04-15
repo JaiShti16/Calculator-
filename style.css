@@ -1,0 +1,109 @@
+body{
+    background-color: black;
+    
+}
+h1{
+    color:white;
+    margin-left: 34%;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+.title{
+    display:flex;
+}
+.main{
+    border:solid 2px cyan;
+    border-radius:8px;
+    box-shadow: 10px red;
+    height:550px;
+    width:350px;
+    text-align: center;
+    margin-left: 35%;
+}
+.button{
+    margin:9px;
+    padding:23px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius:8px;
+}
+.plus{
+    margin:9px;
+    padding:23px;
+    font-size: 20px;
+    font-weight: bolder;
+    border-radius:8px;
+    padding-bottom: 6.8rem;
+}
+.enter{
+    margin:10px;
+    padding:25px;
+    width:75%;
+    border:green solid 1px;
+    border-radius: 8px;
+    font-size:20px;
+    font-weight: bold;
+    background-color: rgb(177, 211, 198);
+    text-align: right;
+}
+.double{
+    margin:9px;
+    padding:18px;
+    font-size:20px;
+    font-weight:bold;
+    border-radius: 8px;
+    height:73px;
+    width:63px;
+}
+.cut{
+    margin:9px;
+    padding:18px;
+    font-size:18px;
+    font-weight:bold;
+    border-radius: 8px;
+    height:73px;
+    width:63px;
+    background-color: red;
+}
+.reverse{
+    margin:9px;
+    padding:18px;
+    font-size:18px;
+    font-weight:bold;
+    border-radius: 8px;
+    height:73px;
+    width:63px;
+    background-color: red;
+}
+.mod{
+    margin:9px;
+    padding:18px;
+    font-size:20px;
+    font-weight:bold;
+    border-radius: 8px;
+    height:73px;
+    width:63px;
+}
+.row2{
+    margin-left: -5.1rem;
+    margin-top: -5.5rem;
+}
+.button:hover{
+    background-color: silver;
+}
+.plus:hover{
+    background-color: silver;
+}
+.mod:hover{
+    background-color: silver;
+}.reverse:hover{
+    background-color:rgb(235, 139, 139);
+}.double:hover{
+    background-color: silver;
+}.cut:hover{
+    background-color: rgb(235, 139, 139);
+}
+h1:hover{
+    background-color: white;
+    color:black;
+}

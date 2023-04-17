@@ -10,7 +10,6 @@ h1{
 }
 .title{
     display:flex;
-    flex-wrap: wrap;
 }
 .main{
     border:solid 2px cyan;

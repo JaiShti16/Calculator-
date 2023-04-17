@@ -108,7 +108,7 @@ h1:hover{
     background-color: white;
     color:black;
 }
-@media (max-width:400px) and (orientation: portrait){
+@media (max-width:480px) and (orientation: portrait){
     .main{
         margin-left: 0.4rem;
     }

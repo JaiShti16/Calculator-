@@ -10,6 +10,7 @@ h1{
 }
 .title{
     display:flex;
+    flex-wrap: wrap;
 }
 .main{
     border:solid 2px cyan;
@@ -106,4 +107,9 @@ h1{
 h1:hover{
     background-color: white;
     color:black;
+}
+@media (max-width:300px) and (orientation: portrait){
+    .main{
+        margin-left: 0.4rem;
+    }
 }
